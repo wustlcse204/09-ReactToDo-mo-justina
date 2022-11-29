@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400&display=swap');
+
+body{
+    height: 80vh;
+    background-image: linear-gradient(90deg, rgba(7,0,124,1) 15%, rgba(40,40,153,1) 30%, rgba(191,198,199,1) 87%);
+}
+
+.container{
+    width: 40%;
+    height: auto;
+    margin: "auto";
+    margin-top: 100px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, .3);
+    color: black;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+}
+
+.container h3{
+    text-align: center;
+}
+
+
+
+input[type=text]:focus{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input[type=text]{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .3);
+    color: white;
+}
+
+input[type=text]::placeholder{
+    color: white;
+}
+
+.todo-input{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #182625;
+}
+
+.todo::-webkit-scrollbar {
+    margin-top: 15px;
+    width: 5px;
+    padding-left: 5px;
+    height: 50%;
+}
+
+.todo::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+
+.todo::-webkit-scrollbar-thumb{
+    color: white;
+}
+
+.todo{
+    width: 70%;
+    max-width: 90%;
+    height: auto;
+    padding-top: 15px;
+    margin: auto;
+    max-height: 65vh;
+    overflow-y: scroll;
+}
+
+input[type=checkbox]{
+    width: 15px;
+    line-height: 1;
+    border-right: 1px dashed black;
+}
+
+.todo-item{
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, .5);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.completed{
+    background-color: rgba(255, 255, 255, .2);
+    color: gray;
+}
+
+.btn-danger {
+    background-color: #ed2939;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+.noStrike{
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+
+    .todo{
+    
+        width: 100%;
+    }
+  }
