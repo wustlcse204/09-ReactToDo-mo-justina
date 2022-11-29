@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/09-todo-react-group-mo-justina/static/css/main.772b4670.css",
+    "main.js": "/09-todo-react-group-mo-justina/static/js/main.fa9dff28.js",
+    "index.html": "/09-todo-react-group-mo-justina/index.html",
+    "main.772b4670.css.map": "/09-todo-react-group-mo-justina/static/css/main.772b4670.css.map",
+    "main.fa9dff28.js.map": "/09-todo-react-group-mo-justina/static/js/main.fa9dff28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.772b4670.css",
+    "static/js/main.fa9dff28.js"
+  ]
+}
